@@ -60,7 +60,7 @@ class TodoListViewController: UITableViewController {
         
         //This is for showing alert on app
         let alert = UIAlertController.init(title: "Add New Item", message: "", preferredStyle: .alert)
-        let action = UIAlertAction.init(title: "Add Item", style: .default) { (action) in
+        let action = UIAlertAction.init(title: "Add Item Which You Wanted", style: .default) { (action) in
             
             //clouser executes once user clicks the add item button on UIAlertController
             print("Success")
